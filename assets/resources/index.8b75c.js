@@ -8040,7 +8040,8 @@ window.__require = function t(e, o, n) {
             , i = {
             local: {
                 evn: n.ENV.local,
-                host: "http://192.168.31.86:8080",
+                // host: "http://192.168.31.86:8080",
+                host:"",
                 reportPrefix: "local_"
             },
             beta: {
@@ -8050,12 +8051,14 @@ window.__require = function t(e, o, n) {
             },
             online: {
                 evn: n.ENV.online,
-                host: "http://139.196.92.142:8080",
+                // host: "http://139.196.92.142:8080",
+                host:"",
                 reportPrefix: "sheep_"
             },
             onlineWx: {
                 evn: n.ENV.onlineWx,
-                host: "http://139.196.92.142:8080",
+                // host: "http://139.196.92.142:8080",
+                host:"",
                 reportPrefix: "sheep_wx_"
             },
             leiTing: {
@@ -8065,12 +8068,14 @@ window.__require = function t(e, o, n) {
             },
             onlineOppo: {
                 evn: n.ENV.onlineOppo,
-                host: "http://139.196.92.142:8080",
+                // host: "http://139.196.92.142:8080",
+                host:"",
                 reportPrefix: "sheep_oppo_"
             },
             onlineVivo: {
                 evn: n.ENV.onlineVivo,
-                host: "http://139.196.92.142:8080",
+                // host: "http://139.196.92.142:8080",
+                host:"",
                 reportPrefix: "sheep_vivo_"
             }
         };
